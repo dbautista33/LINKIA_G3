@@ -1,0 +1,237 @@
+/* Fuente de Google Fonts para una mejor tipografía */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f6f9;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #174658; /* Ajustado a tu color deseado */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Título en el encabezado */
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Contenedor principal */
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Formularios */
+form {
+    background: #fff;
+    max-width: 380px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Títulos en formularios */
+form h2 {
+    margin-top: 0;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #174658; /* Ajustado a tu color deseado */
+}
+
+/* Etiquetas de formularios */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #666;
+}
+
+/* Campos de texto y contraseñas */
+input[type='text'],
+input[type='password'],
+input[type='number'],
+select {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    color: #333;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+/* Efecto al hacer foco */
+input[type='text']:focus,
+input[type='password']:focus,
+input[type='number']:focus,
+select:focus {
+    border-color: #174658; /* Ajustado a tu color deseado */
+    background-color: #fff;
+}
+
+/* Estilo de los botones */
+input[type='submit'],
+button {
+    background-color: #174658; /* Ajustado a tu color deseado */
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Efecto al hacer hover */
+input[type='submit']:hover,
+button:hover {
+    background-color: #103442; /* Ajustado a un color más oscuro */
+    transform: translateY(-2px);
+}
+
+/* Estilo para los select (desplegables) */
+select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    color: #333;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+/* Efecto de hover para los selects */
+select:hover {
+    border-color: #174658; /* Ajustado a tu color deseado */
+}
+
+/* Estilos de la tabla */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+/* Encabezado de la tabla */
+thead {
+    background-color: #174658; /* Ajustado a tu color deseado */
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Estilo de las celdas de la tabla */
+td, th {
+    padding: 14px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Filas alternadas */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+
+/* Estilo para el link de "Volver al inicio" */
+.back-link {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #174658; /* Ajustado a tu color deseado */
+}
+
+.back-link a {
+    text-decoration: none;
+    color: #174658; /* Ajustado a tu color deseado */
+    font-weight: 600;
+}
+
+.back-link a:hover {
+    color: #103442; /* Ajustado a un color más oscuro */
+}
+
+
+/* Botón de cerrar sesión */
+button.logout {
+    background-color: #FF5733;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    width: auto; /* Elimina el 100% para hacerlo más pequeño */
+}
+
+/* Efecto hover para el botón de cerrar sesión */
+button.logout:hover {
+    background-color: #e63b1f;
+}
+
+/* Estilo para el botón de cerrar sesión */
+button.logout, input[type="submit"].logout {
+    background-color: #FF5733;  /* Ajusta al color que deseas */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+/* Efecto hover para el botón de cerrar sesión */
+button.logout:hover, input[type="submit"].logout:hover {
+    background-color: #e63b1f;
+}
+
+/* Estilo para el botón de borrar */
+input[type="submit"].delete-button {
+    background-color: #FF5733;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    width: auto; 
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center; 
+}
+
+/* Efecto hover para el botón de borrar */
+input[type="submit"].delete-button:hover {
+    background-color: #e63b1f;
+}
+
