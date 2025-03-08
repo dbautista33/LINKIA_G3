@@ -2,7 +2,7 @@
 /// Parámetros de conexión a la base de datos
 $host = "localhost";
 $user = "root";
-$password = "root";  
+$password = "";  
 $db_name = "negocio";
 
 $con;
