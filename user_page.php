@@ -35,8 +35,7 @@ if ($_SESSION['logged_user_type'] != 1) {
 
         <!-- Opciones para el usuario -->
         <div class="user-options">
-            <p>Bienvenido a tu página de usuario. Aquí puedes gestionar tu perfil.</p>
-            <a href="modificarusuario.php?id=<?php echo $_SESSION['logged_user']; ?>">Modificar perfil</a>
+            <p>Bienvenido a tu página de usuario.</p>
         </div>
 
         <!-- Enlace para cerrar sesión -->
