@@ -18,7 +18,6 @@
             <!-- Selección del tipo de usuario (Admin o User) -->
             <select name="tipo" required> 
                 <option value="1">User</option> 
-                <option value="0">Admin</option> <!-- Opción para crear un Administrador -->
             </select>
             
             <input type="submit" value="Crear"> <!-- Botón para enviar el formulario -->
